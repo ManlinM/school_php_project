@@ -1,0 +1,85 @@
+h1 {
+    color: #AB7766;
+}
+
+body {
+    font-size: 1.2em;
+    color: #AB7766;
+    margin: 0;
+    background: linear-gradient(45deg, #D7C995, #D9A648);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.datapair {
+    font-size: 1.2em;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #D6AE7D;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input {
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: #D7C995;
+}
+
+button {
+    margin-top: 2em;
+    border: 0;
+    background-color: transparent;
+
+}
+
+button img {
+    display: block;
+    max-width: 230px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #D7C995;
+    padding: 20px;
+}
+
+
+
+.styled-table {
+
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+
+table,
+th,
+td {
+
+    border: solid 1px #AB7766;
+
+
+}
+
+.styled-table thead tr {
+    background-color: #AB7766;
+    color: #D7C995;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
